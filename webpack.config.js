@@ -35,7 +35,8 @@ module.exports = {
 			Main: 'app/components/Main.jsx',
 			Nav: 'app/components/Nav.jsx',
 			Timer: 'app/components/Timer.jsx',
-			CountDown: 'app/components/CountDown',
+			CountDown: 'app/components/CountDown.jsx',
+			Clock: 'app/components/Clock.jsx',
 			applicationStyles: 'app/styles/app.scss'
 		},
 		extensions: ['','.js','.jsx'] // you can now require('file') instead of require('file.js')
