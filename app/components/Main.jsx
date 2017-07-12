@@ -6,14 +6,11 @@ var Main = (props) => {
 	return (
 			<div>
 				<Nav/>
-				<div>
-					<div>
-						<div>
-							<p> Main.jsx rendered </p>
-							{props.children}		
-						</div>
+				<div className="row">
+					<div className="column medium-6 large-4 small-centered">
+						{props.children}		
 					</div>
-					 			
+										 			
 				</div>
 			</div>
 
