@@ -14,6 +14,7 @@ module.exports = function(config){
 				timeout: '5000' //if testing is not over within 5s then terminate testing
 			}
 		},
-		webpack: webpackConfig
+		webpack: webpackConfig,
+		webpackServer: {noinfo: true}
 	});
 };
