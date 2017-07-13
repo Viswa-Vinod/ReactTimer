@@ -20,6 +20,7 @@ var CountDown = require('CountDown');
 //These two loaders will process the css file and add the styles to the project. 
 //The css! loader will run first and then style! will execute.
 require('style!css!foundation-sites/dist/css/foundation.min.css');
+require('style!css!foundation-sites/dist/css/foundation-float.min.css');
 
 //app css; applicationStyles is an alias. Check webpack.config.js.
 require('style!css!sass!applicationStyles');
